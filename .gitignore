@@ -1,0 +1,8 @@
+# Temporary folders
+/dist
+/node_modules
+/package-lock.json
+
+# VS Code files
+*.code-workspace
+.vscode
