@@ -6,7 +6,7 @@ const dev = {
     mode: "development",
     devtool: 'eval-source-map',
     output: {
-        path: path.resolve(__dirname, 'dist/scripts/'),
+        path: path.resolve(__dirname, 'dist/'),
         filename: 'main.js',
         libraryTarget: 'umd',
         library: 'app',
@@ -15,6 +15,7 @@ const dev = {
         static: {
             directory: path.join(__dirname, 'dist'),
         },
+        hot: true,
         compress: true,
         port: 9000,
     }

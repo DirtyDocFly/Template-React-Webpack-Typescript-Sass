@@ -6,7 +6,7 @@ const config = require(path.resolve(__dirname, 'webpack.config.js'));
 const dev = {
     mode: "production",
     output: {
-        path: path.resolve(__dirname, 'dist/scripts/'),
+        path: path.resolve(__dirname, 'dist/'),
         filename: 'main.js',
     },
     optimization: {
