@@ -1,4 +1,2 @@
-## **KEIMENO JS**
-Text Based Game Javascript Framework
-
+## **Template**
 Work in progress...
