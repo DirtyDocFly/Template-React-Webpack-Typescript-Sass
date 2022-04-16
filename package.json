@@ -1,16 +1,14 @@
 {
-  "name": "curiculum",
+  "name": "template-react-webpack-typescript-sass",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a starter kit to develop in React with Webpack, Typescript and Sass",
   "main": "src/main.tsx",
   "scripts": {
     "serve": "webpack-dev-server --config webpack.dev.js",
-    "dev": "webpack-dev-server --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js --no-devtool",
-    "prod": "webpack --mode=production --no-devtool"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["template", "react", "webpack", "typescript", "sass"],
+  "author": "Mikhalis Antoniou",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.17.9",
