@@ -5,7 +5,7 @@
   "main": "src/main.tsx",
   "scripts": {
     "serve": "webpack-dev-server --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js --no-devtool",
+    "build": "webpack --config webpack.prod.js --no-devtool"
   },
   "keywords": ["template", "react", "webpack", "typescript", "sass"],
   "author": "Mikhalis Antoniou",
