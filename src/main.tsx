@@ -4,7 +4,7 @@ import { createRoot } from 'react-dom/client';
 require.context('./styles/', true, /\.(css|scss)$/)
 require.context('./images/', true, /\.(png|jpg|jpeg|gif|svg|webp|ico)/)
 
-import App from './App';
+import App from './components/App';
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement!);
