@@ -29,7 +29,9 @@
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.6.0",
     "node-sass": "^7.0.1",
+    "prettier": "^2.6.2",
     "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0",
     "react": "^18.0.0",
     "sass-loader": "^12.6.0",
     "sass-resources-loader": "^2.2.5",
@@ -45,6 +47,25 @@
   "babel": {
     "presets": [
       "@babel/preset-env"
+    ]
+  },
+  "prettier": {
+    "printWidth": 80,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": true,
+    "arrowParens": "always",
+    "overrides": [
+      {
+        "files": "*.ts",
+        "options": {
+          "parser": "typescript"
+        }
+      }
     ]
   }
 }
