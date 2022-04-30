@@ -23,6 +23,6 @@ const dev = {
             }),
         ],
     },
-}
+};
 
 module.exports = { ...config, ...dev };

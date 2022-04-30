@@ -61,6 +61,6 @@ const config = {
     resolve: {
         extensions: [".ts", ".tsx", ".js", ".json"]
     }
-}
+};
 
 module.exports = config;

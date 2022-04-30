@@ -1,71 +1,51 @@
 {
-  "name": "template-react-webpack-typescript-sass",
-  "version": "1.0.0",
-  "description": "This is a starter kit to develop in React with Webpack, Typescript and Sass",
-  "main": "src/main.tsx",
-  "scripts": {
-    "serve": "webpack-dev-server --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js --no-devtool"
-  },
-  "keywords": [
-    "template",
-    "react",
-    "webpack",
-    "typescript",
-    "sass"
-  ],
-  "author": "Mikhalis Antoniou",
-  "license": "ISC",
-  "devDependencies": {
-    "@babel/core": "^7.17.9",
-    "@babel/preset-env": "^7.16.11",
-    "@types/react-dom": "^18.0.1",
-    "@types/react": "^18.0.5",
-    "@types/webpack-env": "^1.16.4",
-    "css-loader": "^6.7.1",
-    "css-minimizer-webpack-plugin": "^3.4.1",
-    "file-loader": "^6.2.0",
-    "html-loader": "^3.1.0",
-    "html-webpack-plugin": "^5.5.0",
-    "mini-css-extract-plugin": "^2.6.0",
-    "node-sass": "^7.0.1",
-    "prettier": "^2.6.2",
-    "react-dom": "^18.0.0",
-    "react-router-dom": "^6.3.0",
-    "react": "^18.0.0",
-    "sass-loader": "^12.6.0",
-    "sass-resources-loader": "^2.2.5",
-    "style-loader": "^3.3.1",
-    "terser-webpack-plugin": "^5.3.1",
-    "ts-loader": "^9.2.8",
-    "typescript": "^4.6.3",
-    "uglify-js": "^3.15.3",
-    "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^4.7.4",
-    "webpack": "^5.72.0"
-  },
-  "babel": {
-    "presets": [
-      "@babel/preset-env"
-    ]
-  },
-  "prettier": {
-    "printWidth": 80,
-    "tabWidth": 2,
-    "useTabs": false,
-    "semi": false,
-    "singleQuote": true,
-    "trailingComma": "es5",
-    "bracketSpacing": true,
-    "jsxBracketSameLine": true,
-    "arrowParens": "always",
-    "overrides": [
-      {
-        "files": "*.ts",
-        "options": {
-          "parser": "typescript"
-        }
-      }
-    ]
-  }
+    "name": "template-react-webpack-typescript-sass",
+    "version": "1.0.0",
+    "description": "This is a starter kit to develop in React with Webpack, Typescript and Sass",
+    "main": "src/main.tsx",
+    "scripts": {
+        "serve": "webpack-dev-server --config webpack.dev.js",
+        "build": "webpack --config webpack.prod.js --no-devtool"
+    },
+    "keywords": [
+        "template",
+        "react",
+        "webpack",
+        "typescript",
+        "sass"
+    ],
+    "author": "Mikhalis Antoniou",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.17.9",
+        "@babel/preset-env": "^7.16.11",
+        "@types/react-dom": "^18.0.1",
+        "@types/react": "^18.0.5",
+        "@types/webpack-env": "^1.16.4",
+        "css-loader": "^6.7.1",
+        "css-minimizer-webpack-plugin": "^3.4.1",
+        "file-loader": "^6.2.0",
+        "html-loader": "^3.1.0",
+        "html-webpack-plugin": "^5.5.0",
+        "mini-css-extract-plugin": "^2.6.0",
+        "node-sass": "^7.0.1",
+        "react-dom": "^18.0.0",
+        "react-router-dom": "^6.3.0",
+        "react": "^18.0.0",
+        "sass-loader": "^12.6.0",
+        "sass-resources-loader": "^2.2.5",
+        "style-loader": "^3.3.1",
+        "terser-webpack-plugin": "^5.3.1",
+        "ts-loader": "^9.2.8",
+        "typescript": "^4.6.3",
+        "uglify-js": "^3.15.3",
+        "webpack-cli": "^4.9.2",
+        "webpack-dev-server": "^4.7.4",
+        "webpack": "^5.72.0"
+    },
+    "babel": {
+        "presets": [
+            "@babel/preset-env"
+        ]
+    }
 }

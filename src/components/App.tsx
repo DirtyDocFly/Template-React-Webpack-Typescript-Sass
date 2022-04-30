@@ -6,16 +6,16 @@ import Home from '../pages/Home'
 import SecondPage from '../pages/SecondPage'
 
 class App extends Component {
-  render() {
-    return (
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/secondpage" element={<SecondPage />} />
-        </Routes>
-      </BrowserRouter>
-    )
-  }
+    render() {
+        return (
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={ <Home /> } />
+                    <Route path="/secondpage" element={ <SecondPage /> } />
+                </Routes>
+            </BrowserRouter>
+        )
+    }
 }
 
 export default App
